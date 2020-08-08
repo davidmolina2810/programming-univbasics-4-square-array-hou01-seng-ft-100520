@@ -12,6 +12,7 @@ def square_array(array)
   while counter < array.length do
     squared = array[counter] ** 2
     square_array.push(squared)
+    counter += 1
   end
   squared_array
 end
